@@ -1,0 +1,200 @@
+body{
+    margin:0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    
+}
+
+a{
+    text-decoration: none;
+    color:inherit; /* наслідувати */
+} 
+.header{
+    background-color: #202846;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.nav-img{
+    width: 170px;
+    height: 70px;
+    border-radius: 10px;
+    margin-right: 20%;
+}
+.nav-list li{
+    display: inline-block;
+    color: white;
+    border-right: 2px white solid;
+    padding: 0px 10px;
+    
+}
+.nav-lang{
+    width: 70px;
+    height: 70px;
+    padding: 0px 10px;
+    
+}
+.header-img-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin:50px 150px;
+    background-image: url(/Контр/головна1.jpg);
+    background-size: cover;
+
+}
+.header-img-1 p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header-img-1 p:first-of-type{
+    font-size: 75px;
+    text-align: center;
+}
+.header-img-1 p:last-of-type{
+    font-size: 50px;
+    text-align: center;
+}
+.header-img-2{
+    display: flex;
+    flex-direction: column;
+    padding-top: 400px;
+    margin:50px 150px;
+    background-image: url(/Контр/головна2.png);
+    background-size: cover;
+    
+}
+.header-img-2 p{
+    color: #202846;
+    font-style: italic;
+    font-size:20px ;
+    width: max-content;
+    background-color: white;
+    opacity: 0.7;
+    padding: 20px;
+    margin-bottom: 0;
+    
+}
+.header-img-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #C1C1C3;
+    padding: 20px;
+    margin:50px 150px;
+}
+.header-img-3  img{
+    width: 700px;
+    height: 350px;
+    margin-left: 20px;
+    margin-right: 10px ;
+
+}
+.header-img-3 p{
+    width: 650px;
+    height: 350px;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+    background-color: #EAEAEB;
+    padding: 0px 15px;
+    margin-left: 10px;
+    margin-right: 20px;    
+}
+.name-phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #AAAAAA;
+    background-color: #F2EEEE;
+    margin: 50px 600px;
+    
+}
+.call{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #444765;
+}
+.about-us-top{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    padding-left: 50px;
+    align-content: center;
+    background-color: #C6C6DC;
+}
+.about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 50px;
+}
+.about-us p:first-of-type{    
+    width: 1400px;
+    height: 220px;
+    align-content: center;
+    text-align: center;
+    font-family: cursive;
+    font-size: 32px;
+    color: white;
+    background-image: url(/Контр/про\ нас.png);
+    background-size: 1400px 220px;
+    
+    
+}
+.about-us p:last-of-type{
+    align-content: center;    
+    width: 1400px;
+    height: 380px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #202846;
+    font-size: 30px;
+    background-color: #CBCBCB;
+    
+
+}
+.contacts{
+    display: flex;
+    margin: 50px 500px;
+    height: 500px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cabinet{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.bottom-end p{
+    height: 90px;
+    font-family: cursive;
+    font-size: 26px;
+    align-content: center;
+    padding-left: 35px;
+    color: white;
+    background-color: #202846;
+
+}
+@media screen and (max-width: 960px) {
+    .nav-img {
+        display: none;
+    }
+    .nav-lang {
+        display: none;
+    }
+
+    
+}
