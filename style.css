@@ -1,105 +1,119 @@
-body{
-    margin:0;
+body {
+    margin: 0;
 }
 
-ul{
+ul {
     list-style-type: none;
     margin: 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
-    
+
 }
 
-a{
+a {
     text-decoration: none;
-    color:inherit; /* наслідувати */
-} 
-.header{
+    color: inherit;
+    /* наслідувати */
+}
+
+.header {
     background-color: #202846;
     height: 90px;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
-.nav-img{
+
+.nav-img {
     width: 170px;
     height: 70px;
     border-radius: 10px;
     margin-right: 20%;
 }
-.nav-list li{
+
+.nav-list li {
     display: inline-block;
     color: white;
     border-right: 2px white solid;
     padding: 0px 10px;
-    
+
 }
-.nav-lang{
+
+.nav-lang {
     width: 70px;
     height: 70px;
     padding: 0px 10px;
-    
+
 }
-.header-img-1{
+
+.header-img-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 10px;
-    margin:50px 150px;
-    background-image: url(/Контр/головна1.jpg);
+    margin: 50px 150px;
+    background-image: url(/Контр//img_contr/головна1.jpg);
     background-size: cover;
 
 }
-.header-img-1 p{
+
+.header-img-1 p {
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
-.header-img-1 p:first-of-type{
+
+.header-img-1 p:first-of-type {
     font-size: 75px;
     text-align: center;
 }
-.header-img-1 p:last-of-type{
+
+.header-img-1 p:last-of-type {
     font-size: 50px;
     text-align: center;
 }
-.header-img-2{
+
+.header-img-2 {
     display: flex;
     flex-direction: column;
     padding-top: 400px;
-    margin:50px 150px;
-    background-image: url(/Контр/головна2.png);
+    margin: 50px 150px;
+    background-image: url(/Контр/img_contr/головна2.png);
     background-size: cover;
-    
+
 }
-.header-img-2 p{
+
+.header-img-2 p {
     color: #202846;
     font-style: italic;
-    font-size:20px ;
+    font-size: 20px;
     width: max-content;
     background-color: white;
     opacity: 0.7;
     padding: 20px;
     margin-bottom: 0;
-    
+
 }
-.header-img-3{
+
+.header-img-3 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     background-color: #C1C1C3;
     padding: 20px;
-    margin:50px 150px;
+    margin: 50px 150px;
 }
-.header-img-3  img{
+
+.header-img-3 img {
     width: 700px;
     height: 350px;
     margin-left: 20px;
-    margin-right: 10px ;
+    margin-right: 10px;
 
 }
-.header-img-3 p{
+
+.header-img-3 p {
     width: 650px;
     height: 350px;
     font-size: 20px;
@@ -108,40 +122,45 @@ a{
     background-color: #EAEAEB;
     padding: 0px 15px;
     margin-left: 10px;
-    margin-right: 20px;    
+    margin-right: 20px;
 }
-.name-phone{
+
+.name-phone {
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 3px solid #AAAAAA;
     background-color: #F2EEEE;
     margin: 50px 600px;
-    
+
 }
-.call{
+
+.call {
     width: 100%;
     height: 50px;
     color: white;
     background-color: #444765;
 }
-.about-us-top{
+
+.about-us-top {
     display: flex;
     flex-wrap: wrap;
     height: 100px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
     padding-left: 50px;
     align-content: center;
     background-color: #C6C6DC;
 }
-.about-us{
+
+.about-us {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 15px 50px;
 }
-.about-us p:first-of-type{    
+
+.about-us p:first-of-type {
     width: 1400px;
     height: 220px;
     align-content: center;
@@ -149,36 +168,198 @@ a{
     font-family: cursive;
     font-size: 32px;
     color: white;
-    background-image: url(/Контр/про\ нас.png);
+    background-image: url(/Контр/img_contr/про\ нас.png);
     background-size: 1400px 220px;
-    
-    
+
+
 }
-.about-us p:last-of-type{
-    align-content: center;    
+
+.about-us p:last-of-type {
+    align-content: center;
     width: 1400px;
     height: 380px;
     font-family: 'Times New Roman', Times, serif;
     color: #202846;
     font-size: 30px;
     background-color: #CBCBCB;
-    
+
 
 }
-.contacts{
+
+.reservation {
+    display: flex;
+    height: 75px;
+    margin: 50px 100px;
+}
+
+.reservation select {
+    border: none;
+    width: 1500px;
+    align-content: center;
+    text-align: center;
+
+
+}
+
+.container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #BDBDC6;
+
+    height: 300px;
+    padding: 20px;
+    margin: 50px 100px;
+}
+
+.container img {
+    width: 485px;
+    height: 244px;
+    margin-left: 20px;
+    margin-right: 10px
+}
+
+.container h3 {
+    width: 700px;
+    color: #353C57;
+    size: 36px;
+    border-bottom: 3px solid white;
+    margin-left: 10px;
+    margin-right: 20px;
+
+}
+
+.container p {
+    width: 700px;
+    height: 185px;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+    background-color: #EAEAEB;
+    color: #353C57;
+    margin-left: 10px;
+    margin-right: 20px;
+
+}
+
+.container a {
+    position: absolute;
+    text-align: center;
+    align-content: center;
+    width: 200px;
+    height: 60px;
+    border: 2px solid #202846;
+    background-color: #202846;
+    color: white;
+    border-radius: 24px;
+    size: 24px;
+    right: 30px;
+    bottom: 30px;
+}
+.reservation select {
+    text-align: center;
+    font-size: 32px;
+    color: #292A31;
+    background-color:  #E8E8E8;
+    border-bottom: 2px solid #faf5f5;
+
+}
+
+.house-reservation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 30px 50px;
+
+}
+
+.house-reservation-block1 img {
+    width: 610px;
+    height: 335px;
+
+}
+
+.content-reservation {
+    text-align: center;
+    align-content: center;
+    font-size: 24px;
+    color: black;
+    background-color: #C7C7C7;
+    height: 400px;
+    width: 805px;
+    margin-bottom: 5px;
+
+}
+
+.house-reservation-block2 {
+    margin-left: 5px;
+}
+
+.house-reservation-block2 img {
+    width: 400px;
+    height: 270px;
+
+}
+.text-reserv {
+    font-size: 40px;
+    color: #353C57;
+    text-align: center;
+    
+}
+.form-reservation {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #CECED8;
+    height: 300px;
+    margin: 20px 50px;
+
+
+}
+.form-group-1 {
+    display: table-cell;   
+    padding: 20px;
+    
+}
+.form-group-1 input{
+    width: 350px;
+    /* height: 60px; */
+    font-size: 18px;
+}
+.button { 
+    width: 250px;
+    height: 100px;
+    color: #E8E8E8;
+    background-color: #202846;
+
+}
+.form-group {
+    display: inline;
+    padding: 20px;
+
+    
+}
+
+
+.contacts {
     display: flex;
     margin: 50px 500px;
     height: 500px;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.cabinet{
+
+.cabinet {
     display: flex;
     justify-content: space-evenly;
-    
+
 }
 
-.bottom-end p{
+.bottom-end p {
     height: 90px;
     font-family: cursive;
     font-size: 26px;
@@ -188,13 +369,58 @@ a{
     background-color: #202846;
 
 }
+
 @media screen and (max-width: 960px) {
     .nav-img {
         display: none;
     }
+
     .nav-lang {
         display: none;
     }
+    .header {
+        display: flex;
+        flex-direction: row;
+        background-color: greenyellow;
+        color: green;
+    }
+    .header-img-2 p {
+        display: none;
+    }
+    .header-img-3 img {
+        display: none;
+    }
+    .about-us-top{
+        display: inline;
+    }
+    .name-phone{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .reservation {
+        display: none;
+    }
+    .container {
+        display: flex;
+        background-color: white;
+        margin: 10px;
+    }
+    .container img{
+        width: 100%;
+        margin: auto;
+    }
+    .container p{
+        width: 100%;
+        max-width: 400px;
+        margin: 2px;
+    }
+    .container a{
+        position: relative;
+    }
 
-    
+
+
+
 }
