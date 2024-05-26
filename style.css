@@ -53,7 +53,7 @@ a {
     justify-content: center;
     padding: 10px;
     margin: 50px 150px;
-    background-image: url(/Контр//img_contr/головна1.jpg);
+    background-image: url(/головна1.jpg);
     background-size: cover;
 
 }
@@ -78,7 +78,7 @@ a {
     flex-direction: column;
     padding-top: 400px;
     margin: 50px 150px;
-    background-image: url(/Контр/img_contr/головна2.png);
+    background-image: url(/головна2.png);
     background-size: cover;
 
 }
@@ -168,7 +168,7 @@ a {
     font-family: cursive;
     font-size: 32px;
     color: white;
-    background-image: url(/Контр/img_contr/про\ нас.png);
+    background-image: url(/про\ нас.png);
     background-size: 1400px 220px;
 
 
